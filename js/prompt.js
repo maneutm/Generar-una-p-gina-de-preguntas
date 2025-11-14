@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyD95VQO1U3blZaObl79-ksJxgCU997pPXI";
+const API_KEY = "Tu apikey";
 const MODEL = "gemini-2.5-flash-lite";
 async function generar_pregunta (){ //funcion asincrona ( para que espera la respuesta)
 
@@ -188,3 +188,4 @@ function actualizarContadores(tipo) {
         localStorage.setItem("incorrectas", i); // GUARDAR
     }
 }
+
